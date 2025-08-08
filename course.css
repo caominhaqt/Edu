@@ -1,0 +1,543 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: fit-content;
+    width: 100%;
+}
+
+.header {
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    height: 30px;
+    width: 166px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    height: 72px;
+    width: 702px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login {
+    height: 48px;
+    width: 198px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    width: 100%;
+    height: 250vh;
+
+}
+
+.homepage {
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding-left: 119px;
+}
+
+.course {
+    width: 100%;
+    height: 290px;
+    background-color: black;
+    display: flex;
+    padding-left: 119px;
+    align-items: center;
+}
+
+.Photo {
+    width: 1290px;
+    height: 190px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 301px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.photo button {
+    width: 114px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 7px;
+    color: white;
+}
+
+.Ultimate {
+    width: 850px;
+    height: 86px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.weeks {
+    width: 563px;
+    height: 24px;
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+}
+
+.Box1 {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Box2 {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Box3 {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Box4 {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Box5 {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Frame {
+    position: absolute;
+    top: 182px;
+    right: 112px;
+}
+
+.intro {
+    width: 100%;
+    height: 1200px;
+
+    display: flex;
+    padding-top: 40px;
+    padding-left: 119px;
+}
+
+.Intro {
+    width: 1290px;
+    height: 874px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.aa {
+    width: 850px;
+    height: 694px;
+    background-color: white;
+}
+
+.categories {
+    width: 100%;
+    height: 64px;
+    background-color: white;
+    display: flex;
+}
+
+.Overview {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Curriculum {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 214, 214);
+    color: orange;
+}
+
+.Instructor {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FAQs {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reviews {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LearnPress {
+    width: 100%;
+    height: 650px;
+    background-color: rgb(224, 214, 214);
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 40px 40px 100px 40px;
+    gap: 20px;
+}
+
+.Text {
+    width: 790px;
+    height: 54px;
+    background-color: #FF782D;
+    display: flex;
+    align-items: center;
+}
+
+.video {
+    width: 790px;
+    height: 496px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vid1 {
+    width: 100%;
+    height: 56px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vid1_1 {
+    width: 16px;
+    height: 16px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vid1_2 {
+    width: 576px;
+    height: 24px;
+    background-color: cadetblue;
+}
+
+.vid1_3 {
+    width: 142px;
+    height: 24px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vid2 {
+    width: 790px;
+    height: 224px;
+    background-color: cornsilk;
+    display: flex;
+}
+.vid2_1{
+    width: 100%;
+    height: 25%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.vid2_1_0{
+    width: 16px;
+    height: 16px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vid2_1_1{
+    width: 576px;
+    height: 24px;
+    background-color: cadetblue;
+}
+.vid2_1_2{
+    width: 142px;
+    height: 24px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aa1 {
+    width: 850px;
+    height: 386px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comment {
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nameinput {
+    width: 100%;
+    height: 293px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Name {
+    width: 415px;
+    height: 100%;
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.Email {
+    width: 415px;
+    height: 100%;
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.Comment {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+}
+
+.cmt {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding-bottom: 65px;
+    padding-left: 10px;
+}
+
+.save {
+    width: 100%;
+    height: 27px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post {
+    width: 100%;
+    height: 48px;
+    background-color: white
+}
+
+.post button {
+    width: 170px;
+    height: 100%;
+    background-color: #FF782D;
+    border-radius: 24px;
+    color: white;
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    height: 552px;
+    background-color: rgb(224, 214, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 120px;
+    align-items: center;
+}
+
+.UP {
+    width: 1290px;
+    height: 281px;
+
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+.Edu {
+    width: 410px;
+    height: 131px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Edu1 {
+    width: 166.3px;
+    height: 30px;
+
+    display: flex;
+}
+
+.get_help {
+    width: 190px;
+    height: 191px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.help {
+    width: 110px;
+    height: 135px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.programs {
+    width: 190px;
+    height: 281px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Art {
+    width: 107px;
+    height: 225px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact {
+    width: 410px;
+    height: 218px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Address {
+    width: 100%;
+    height: 128px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brand {
+    width: 148px;
+    height: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Down {
+    width: 452px;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
