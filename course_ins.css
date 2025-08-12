@@ -13,19 +13,27 @@
     height: 72px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .box1 {
-    height: 30px;
+    height: 100%;
     width: 166px;
     display: flex;
     justify-content: center;
-    gap: 4px;
-    font-size: 28px;
     align-items: center;
-    justify-content: center;
+    gap: 4px;
+}
+
+.box1 strong {
+    align-self: center;
+}
+
+.ha_1 {
+    width: 39.3px;
+    height: 30px;
+    align-self: center;
 }
 
 .menu {
@@ -43,30 +51,34 @@
     justify-content: space-around;
     align-items: center;
 }
-.home{
+
+.home {
     height: 100%;
     width: 84px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.courses{
-    height: 100%;
-    width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: orange;
     background-color: rgb(224, 214, 214);
 }
-.blog{
+
+.courses {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog {
     height: 100%;
     width: 74px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.page{
+
+.page {
     height: 100%;
     width: 97px;
     display: flex;
@@ -74,13 +86,23 @@
     justify-content: center;
     justify-content: space-evenly;
 }
-.add{
+
+.add {
     height: 100%;
     width: 183px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.theme {
+    height: 100%;
+    width: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .login {
     height: 48px;
     width: 198px;
@@ -210,8 +232,7 @@
 
 .intro {
     width: 100%;
-    height: 1200px;
-
+    height: 1000px;
     display: flex;
     padding-top: 40px;
     padding-left: 119px;
@@ -224,13 +245,17 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 60px;
+
 }
 
 .aa {
     width: 850px;
-    height: 694px;
-    background-color: white;
+    height: 434px;
+    background-color:salmon;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .categories {
@@ -238,6 +263,7 @@
     height: 64px;
     background-color: white;
     display: flex;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .Overview {
@@ -255,8 +281,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(224, 214, 214);
-    color: orange;
+
 }
 
 .Instructor {
@@ -265,7 +290,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: #F5F5F5;
+    color: orange;
 }
 
 .FAQs {
@@ -286,282 +312,107 @@
 
 .LearnPress {
     width: 100%;
-    height: 650px;
-    background-color: rgb(224, 214, 214);
+    height: 370px;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
-
-    align-items: center;
-    padding: 40px 40px 100px 40px;
-    gap: 20px;
-}
-
-.Text {
-    width: 790px;
-    height: 54px;
-    background-color: rgb(224, 214, 214);
-    display: flex;
-    align-items: center;
-    color: #555555;
-}
-
-.video {
-    width: 790px;
-    height: 496px;
-    background-color: rgb(224, 214, 214);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.vid1 {
-    width: 100%;
-    height: 56px;
-    background-color: white;
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    border-radius: 8px;
-}
-
-.vid1_1 {
-    width: 16px;
-    height: 16px;
-    background-color: white;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+    border-radius: 0px 0px 10px 10px;
 }
-
-.vid1_2 {
-    width: 576px;
-    height: 24px;
-    background-color: white; 
-    display: flex;
-    align-items: center;
-}
-
-.vid1_3 {
-    width: 142px;
-    height: 24px;
-    background-color: white;
+.ThimPress{
+    width: 790px;
+    height: 310px;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.vid2 {
-    width: 790px;
-    height: 224px;
-    background-color: white;
-    display: flex;
     flex-wrap: wrap;
-    border-radius: 8px;
 }
-.vid2_1{
+.T1{
     width: 100%;
-    height: 25%;
-    background-color: white;
+    height: 189px;
+    background-color: #F5F5F5;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-.vid2_1_0{
-    width: 16px;
-    height: 16px;
-    background-color: white;
+.pi{
+    width: 180px;
+    height: 180px;
+    background-color: #F5F5F5;
+}
+.chu{
+    width: 586px;
+    height: 189px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tit{
+    width: 99px;
+    height: 24px;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.vid2_1_1{
-    width: 576px;
+.lorem{
+    width: 100%;
+    height: 81px;
+    background-color: #F5F5F5;
+    display: flex;
+    line-height: 175%;
+    align-items: center;
+}
+.stu{
+    width: 120px;
     height: 24px;
-    background-color: white;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
-    color: orange;
+    justify-content: space-between;
 }
-.vid2_1_2{
-    width: 142px;
+.les{
+    width: 108px;
     height: 24px;
-    background-color: white;
+    background-color: #F5F5F5;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
-.vid2_2{
+.T2{
     width: 100%;
-    height: 25%;
-    background-color: white;
+    height: 54px;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding-left: 28px;
+    line-height: 150%;
 }
-.vid2_2_1{
-    width: 16px;
-    height: 16px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.vid2_2_2{
-    width: 506px;
-    height: 24px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-.vid2_2_3{
-    width: 188px;
-    height: 32px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
-.vid2_2_3 button{
-    width: 76px;
-    height: 100%;
-    background-color: cornflowerblue;
-    border-radius: 8px;
-    color: white;
-}
-.clock1{
-    width: 100px;
-    height: 100%;
-    background-color: white;
+.T3{
+    width: 214px;
+    height: 27px;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.vid2_3{
-    width: 100%;
-    height: 25%;
-    background-color: white;
+.Icons{
+    width: 148px;
+    height: 20px;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding-left: 28px;
-}
-.vid2_3_1{
-    width: 16px;
-    height: 16px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.vid2_3_2{
-    width: 506px;
-    height: 24px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-.vid2_3_3{
-    width: 188px;
-    height: 32px;
-    background-color: white;
-    display: flex;
     justify-content: space-between;
-}
-.vid2_3_3 button{
-    width: 76px;
-    height: 100%;
-    background-color: cornflowerblue;
-    border-radius: 8px;
-    color: white;
-}
-.clock2{
-    width: 100px;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-}
-.vid2_4{
-    width: 100%;
-    height: 25%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-left: 28px;
-}
-.vid2_4_1{
-    width: 16px;
-    height: 16px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.vid2_4_2{
-    width: 506px;
-    height: 24px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-.vid2_4_3{
-    width: 188px;
-    height: 32px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
-.vid2_4_3 button{
-    width: 76px;
-    height: 100%;
-    background-color: cornflowerblue;
-    border-radius: 8px;
-    color: white;
-}
-.clock3{
-    width: 100px;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-}
-.vid3{
-    width: 100%;
-    height: 56px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 8px;
-}
-.vid4{
-    width: 100%;
-    height: 56px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 8px;
-}
-.vid5{
-    width: 100%;
-    height: 56px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 8px;
 }
 .aa1 {
     width: 850px;
-    height: 386px; 
+    height: 386px;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
 }
 
 .comment {

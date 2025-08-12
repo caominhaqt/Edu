@@ -7,8 +7,6 @@
 .container {
     height: fit-content;
     width: 100%;
-
-
 }
 
 .header {
@@ -20,16 +18,21 @@
 }
 
 .box1 {
-    height: 30px;
+    height: 100%;
     width: 166px;
     display: flex;
     justify-content: center;
-    gap: 4px;
-    font-size: 28px;
     align-items: center;
-    justify-content: center;
+    gap: 4px;
 }
-
+.box1 strong{
+    align-self: center;
+}
+.ha_1{
+    width: 39.3px;
+    height: 30px;
+    align-self: center;
+}
 .menu {
     height: 72px;
     width: 702px;
@@ -45,7 +48,51 @@
     justify-content: space-around;
     align-items: center;
 }
-
+.home{
+    height: 100%;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    background-color: rgb(224, 214, 214);
+}
+.courses{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog{
+    height: 100%;
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page{
+    height: 100%;
+    width: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.add{
+    height: 100%;
+    width: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theme{
+    height: 100%;
+    width: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .login {
     height: 48px;
     width: 198px;
