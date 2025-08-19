@@ -97,7 +97,7 @@
     justify-content: space-around;
 }
 
-.content {
+.content_course_over {
     width: 100%;
     height: 250vh;
 
@@ -291,7 +291,7 @@
     align-items: center;
 }
 
-.LearnPress {
+.LearnPress_course_over {
     width: 100%;
     height: 384px;
     background-color: rgb(224, 214, 214);

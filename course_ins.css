@@ -111,10 +111,10 @@
     justify-content: space-around;
 }
 
-.content {
+.content_course {
     width: 100%;
     height: 250vh;
-
+    
 }
 
 .homepage {
@@ -258,7 +258,7 @@
 
 }
 
-.categories {
+.categories_course {
     width: 100%;
     height: 64px;
     background-color: white;
@@ -310,7 +310,7 @@
     align-items: center;
 }
 
-.LearnPress {
+.LearnPress_course_ins {
     width: 100%;
     height: 370px;
     background-color: #F5F5F5;

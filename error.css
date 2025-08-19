@@ -114,13 +114,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
-
-
-.content {
+.content_error {
     width: 100%;
-    height: 85vh;
+    height: 1100px;
     background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .homepage {
@@ -131,189 +132,6 @@
     align-items: center;
     padding-left: 119px;
 }
-
-.Box1 {
-    height: 598px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    gap: 30px;
-}
-
-.Login1 {
-    height: 406px;
-    width: 630px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 20px;
-    border: 1px solid #EAEAEA;
-}
-
-.dang_nhap {
-    width: 570px;
-    height: 38px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    
-}
-
-.nameinput {
-    width: 570px;
-    height: 100px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-
-.email {
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    border-radius: 8px;
-    padding: 10px 16px 10px 16px;
-}
-
-.mk {
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    display: flex;
-    border-radius: 8px;
-    padding: 10px 16px 10px 16px;
-}
-
-.remember {
-    width: 570px;
-    height: 27px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-
-.box2 {
-    width: 570px;
-    height: 48px;
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.box2 button {
-    width: 570px;
-    height: 48px;
-    background-color: #FF782D;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border: none;
-}
-
-.Lost {
-    width: 570px;
-    height: 27px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-
-.Register {
-    width: 630px;
-    height: 448px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 45px;
-    border: 1px solid #EAEAEA;
-    border-radius: 20px;
-}
-
-.dang_ki {
-    width: 570px;
-    height: 38px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-
-.Input1 {
-    width: 570px;
-    height: 220px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.e_mail {
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    padding: 10px 16px 10px 16px;
-    border-radius: 8px;
-}
-
-.ng_dung {
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    padding: 10px 16px 10px 16px;
-    border-radius: 8px;
-}
-
-.MK {
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    padding: 10px 16px 10px 16px;
-    border-radius: 8px;
-}
-
-.confirm {
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    padding: 10px 16px 10px 16px;
-    border-radius: 8px;
-}
-
-.Dang_ki {
-    width: 570px;
-    height: 48px;
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.Dang_ki button {
-    width: 570px;
-    height: 48px;
-    background-color: #FF782D;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border: none;
-}
-
 .footer {
     height: 552px;
     width: 100%;

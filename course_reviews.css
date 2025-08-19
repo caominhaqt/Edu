@@ -58,8 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: orange;
-    background-color: rgb(224, 214, 214);
+    
 }
 
 .courses {
@@ -68,6 +67,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: orange;
+    background-color: rgb(224, 214, 214);
 }
 
 .blog {
@@ -111,10 +112,10 @@
     justify-content: space-around;
 }
 
-.content_FAQs {
+.content_course {
     width: 100%;
     height: 250vh;
-
+    
 }
 
 .homepage {
@@ -250,20 +251,21 @@
 
 .aa {
     width: 850px;
-    height: 541px;
+    height: 995px;
     background-color:salmon;
-    border-radius: 15px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
 
 }
 
-.categories {
+.categories_course {
     width: 100%;
     height: 64px;
     background-color: white;
     display: flex;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    
 }
 
 .Overview {
@@ -272,7 +274,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .Curriculum {
@@ -299,8 +301,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F5F5F5;
-    color: orange;
 }
 
 .Reviews {
@@ -309,50 +309,342 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F5F5F5;
+    color: orange;
 }
 
-.LearnPress_course_FAQs {
+.LearnPress_course_reviews {
     width: 100%;
-    height: 477px;
+    height: 931px;
+    background-color: #F5F5F5;
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    flex-direction: column;
+}
+.Comment_reviews{
+    width: 101px;
+    height: 24px;
+    background-color: #F5F5F5;
+    display: flex;
+    
+    align-items: center;
+}
+.Star{
+    width: 790px;
+    height: 827px;
     background-color:#F5F5F5;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 30px;
-    border-radius: 0px 0px 10px 10px;
-    gap: 20px;
 }
-.royal{
-    width: 790px;
-    height: 64px;
-    padding: 20px 30px 20px 30px;
+.Score{
+    width: 100%;
+    height: 48px;
+    background-color: #F5F5F5;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-radius: 8px;
-    background-color: white;
+    gap: 12px;
 }
-.Royal{
-    width: 790px;
-    height: 165px;
-    background-color: white;
-    border-radius: 8px;
+.Rating{
+    width: 174px;
+    height: 100%;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px 30px 20px 30px;
+    justify-content: space-between;
 }
-.Royal p{
-    line-height: 150%;
+.star{
+    width: 116px;
+    height: 20px;
+    background-color: #F5F5F5;
 }
-.royal1{
-    width: 730px;
+.rating{
+    width: 174px;
     height: 24px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;  
+}
+.Rate{
+    width: 100%;
+    height: 151px;
+    background-color:#F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.percent{
+    height: 100%;
+    width: 120px;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
+.five{
+    width: 123px;
+    height: 27px;
+    background-color: #F5F5F5;
+    display: flex;
     align-items: center;
-    border-radius: 8px;
-    background-color: white;
+    gap: 8px;
+}
+.five_star{
+    width: 80px;
+    height: 16px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.five_star img{
+    width: 11.335022926330566px;
+    height: 10.847996711730957px;
+}
+.four{
+    width: 120px;
+    height: 27px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.four_star{
+    width: 80px;
+    height: 16px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.four_star img{
+    width: 11.335022926330566px;
+    height: 10.847996711730957px;
+}
+.three{
+    width: 120px;
+    height: 27px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.three_star{
+    width: 80px;
+    height: 16px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.three_star img{
+    width: 11.335022926330566px;
+    height: 10.847996711730957px;
+}
+.two{
+    width: 120px;
+    height: 27px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.two_star{
+    width: 80px;
+    height: 16px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.two_star img{
+    width: 11.335022926330566px;
+    height: 10.847996711730957px;
+}
+.one{
+    width: 120px;
+    height: 27px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.one_star{
+    width: 80px;
+    height: 16px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.one_star img{
+    width: 11.335022926330566px;
+    height: 10.847996711730957px;
+}
+.bar{
+    width: 650px;
+    height: 130px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bar1{
+    width: 650px;
+    height: 10px;
+    background-color: #EAEAEA;
+}
+.fill1{
+    width: 90%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.bar2{
+    width: 650px;
+    height: 10px;
+    background-color: #EAEAEA;
+}
+.fill2{
+    width: 5%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.bar3{
+    width: 650px;
+    height: 10px;
+    background-color: #EAEAEA;
+}
+.fill3{
+    width: 2%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.bar4{
+    width: 650px;
+    height: 10px;
+    background-color: #EAEAEA;
+}
+.fill4{
+    width: 2%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.bar5{
+    width: 650px;
+    height: 10px;
+    background-color: #EAEAEA;
+}
+.fill5{
+    width:1%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.Laura{
+    width: 790px;
+    height: 558px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Laura_hipster{
+    width: 100%;
+    height: 160px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #EAEAEA;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.human{
+    width: 60px;
+    height: 60px;
+
+}
+.Text{
+    width: 710px;
+    height: 140px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.October{
+    width: 100%;
+    height: 19px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+.Com{
+    width: 100%;
+    height: 81px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+}
+.reply{
+    width: 60.73802947998047px;
+    height: 24px;
+    background-color: #F5F5F5;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.Page{
+    width: 288px;
+    height: 48px;
+    background-color:#F5F5F5;
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.left{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Page_one{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Page_two{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Page_three{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .aa1 {
     width: 850px;
