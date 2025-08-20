@@ -122,18 +122,15 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding-bottom: 90px;
     gap: 60px;
 }
-.error{
-    width: 1290px;
-    height: 889px;
-    background-color: white;
+.homepage {
+    height: 60px;
+    width: 100%;
+    background-color: #F5F5F5;
     display: flex;
-    justify-self: center;
-    align-self: center;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    padding-left: 119px;
 }
 .Text{
     width: 100%;
@@ -142,20 +139,80 @@
     display: flex;
     align-items: center;
 }
-.Frame{
+.error{
     width: 1290px;
-    height: 786px;
+    height: 1014px;
     background-color: white;
     display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.homepage {
-    height: 60px;
-    width: 100%;
-    background-color: #F5F5F5;
+.Royalty{
+    width: 1290px;
+    height: 474px;
+    background-color: white;
     display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 630px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.royal{
+    width: 630px;
+    height: 64px;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 119px;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+}
+.Royal{
+    width: 630px;
+    height: 192px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px 20px 30px;
+}
+.Royal p{
+    line-height: 150%;
+}
+.royal1{
+    width: 570px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color:#F5F5F5;
+}
+.right{
+    width: 630px;
+    height: 346px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.people{
+    width: 1290px;
+    height: 317.014404296875px;
+    display: flex;
+    background-color: white;
+}
+.people img{
+    object-fit: contain;
 }
 .footer {
     height: 552px;
@@ -165,7 +222,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: gainsboro;
+    background-color: #F5F5F5;
 }
 
 .Edu {

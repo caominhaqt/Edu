@@ -113,42 +113,16 @@
     width: 198px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
-.content_error {
+.content_contact{
+    height: 1128px;
     width: 100%;
-    height: 1100px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
+    background-color: #FF782D;
     padding-bottom: 90px;
     gap: 60px;
+    
 }
-.error{
-    width: 1290px;
-    height: 889px;
-    background-color: white;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.Text{
-    width: 100%;
-    height: 43px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-.Frame{
-    width: 1290px;
-    height: 786px;
-    background-color: white;
-    display: flex;
-}
-
 .homepage {
     height: 60px;
     width: 100%;
@@ -157,92 +131,8 @@
     align-items: center;
     padding-left: 119px;
 }
-.footer {
-    height: 552px;
+.Direct_line{
+    height: 1068px;
     width: 100%;
-    padding: 30px 0px 90px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: gainsboro;
-}
-
-.Edu {
-    height: 281px;
-    width: 1290px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.Edu1 {
-    height: 131px;
-    width: 410px;
-}
-
-.Edu2 {
-    height: 190px;
-    width: 191px;
-    display: flex;
-}
-
-.Edu2_1 {
-    height: 135px;
-    width: 110px;
-    display: flex;
-    align-self: flex-end;
-    position: relative;
-    right: 62px;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.Edu3 {
-    height: 281px;
-    width: 190px;
-    display: flex;
-}
-
-.Edu3_1 {
-    height: 225px;
-    width: 107px;
-    position: relative;
-    right: 67px;
-    top: 55px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.Edu4 {
-    height: 218px;
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.Edu4_1 {
-    height: 162px;
-    width: 100%;
-    display: flex;
-    align-self: flex-end;
-    flex-direction: column;
-}
-
-.t {
-    height: 20px;
-    width: 148px;
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-.copyright {
-    height: 50px;
-    width: 100%;
-    align-items: flex-end;
-    justify-content: center;
-    display: flex;
-    left: 30%;
-
+    background-color: bisque;
 }
