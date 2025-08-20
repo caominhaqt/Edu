@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: fit-content;
+    width: 100%;
+}
+
+.header {
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    height: 30px;
+    width: 166px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    height: 72px;
+    width: 702px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.home{
+    height: 100%;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home:hover{
+    cursor: pointer;
+}
+.courses{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.courses:hover{
+    cursor: pointer;
+}
+.blog{
+    height: 100%;
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF782D;
+    background-color: #F5F5F5;
+}
+.blog:hover{
+    cursor: pointer;
+}
+.page{
+    height: 100%;
+    width: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.page:hover{
+    cursor: pointer;
+}
+.add{
+    height: 100%;
+    width: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add:hover{
+    cursor: pointer;
+}
+.theme{
+    height: 100%;
+    width: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theme:hover{
+    cursor: pointer;
+}
+.login {
+    height: 48px;
+    width: 198px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.content_blog{
+    height: 2735px;
+    width: 100%;
+    gap: 60px;
+    padding-bottom: 90px;
+}
+.homepage {
+    height: 60px;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding-left: 119px;
+}
+.content{
+    height: 2675px;
+    width: 100%;
+    background-color: #FF782D;
+    display: flex;
+    justify-content: center;
+}
