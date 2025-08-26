@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: fit-content;
+    width: 100%;
+}
+
+.header {
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    height: 30px;
+    width: 166px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    height: 72px;
+    width: 702px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home {
+    height: 100%;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home:hover {
+    cursor: pointer;
+}
+
+.courses {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses:hover {
+    cursor: pointer;
+}
+
+.blog {
+    height: 100%;
+    width: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF782D;
+    background-color: #F5F5F5;
+}
+
+.blog:hover {
+    cursor: pointer;
+}
+
+.page {
+    height: 100%;
+    width: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.page:hover {
+    cursor: pointer;
+}
+
+.add {
+    height: 100%;
+    width: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add:hover {
+    cursor: pointer;
+}
+
+.theme {
+    height: 100%;
+    width: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme:hover {
+    cursor: pointer;
+}
+
+.login {
+    height: 48px;
+    width: 198px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content_blog {
+    height: 2021px;
+    width: 100%;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homepage {
+    height: 60px;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding-left: 119px;
+    gap: 8px;
+}
+.BackGround{
+    width: 100%;
+    height: 1951px;
+    background-color:#FF782D;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.content{
+    width: 1290px;
+    height: 1811px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.content_left{
+    height: 100%;
+    width: 990px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top_heading{
+    height: 43px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Search{
+    height: 31px;
+    width: 350px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Search input{
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 270px;
+    height: 31px;
+
+}
+.Search span{
+    position: absolute;
+    right: 500px;
+}
+.Courses{
+    height: 1728px;
+    width: 990px;
+    display: flex;
+    background-color:chartreuse;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.collection1{
+    height: 250px;
+    width: 990px;
+    border-radius: 20px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+}
+.Eduma{
+    height: 100%;
+    width: 410px;
+    display: flex;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:aliceblue;
+}
+.Eduma img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.Text{
+    width: 580px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    padding: 20px 30px 20px 30px;
+}
+.Mid{
+    width: 123px;
+    height: 24px;
+    display: flex;
+    gap: 8px;
+    background-color:blanchedalmond;
+    align-items: center;
+}
