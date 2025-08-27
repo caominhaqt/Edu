@@ -129,16 +129,14 @@
     align-items: center;
     justify-content: space-around;
 }
-
-.content_course_left {
-    height: 2021px;
+.content_course_right{
+    height: 1907px;
     width: 100%;
     padding-bottom: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .homepage {
     height: 60px;
     width: 100%;
@@ -148,33 +146,29 @@
     padding-left: 119px;
     gap: 8px;
 }
-
 .BackGround {
     width: 100%;
-    height: 1951px;
-    background-color: white;
+    height: 1847px;
+    background-color:white;
     display: flex;
     justify-content: center;
     padding-top: 60px;
 }
-
 .content {
     width: 1290px;
-    height: 1811px;
+    height: 1698px;
     background-color: white;
     display: flex;
     justify-content: space-between;
 }
-
 .content_left {
     height: 100%;
     width: 990px;
-    background-color: white;
+    background-color:white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .top_heading {
     height: 43px;
     width: 100%;
@@ -208,33 +202,34 @@
     position: absolute;
     right: 500px;
 }
-
-.Courses_left {
-    height: 1728px;
+.Courses_right{
+    height: 1614px;
     width: 990px;
     display: flex;
     background-color: white;
     flex-direction: column;
     gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 .collection {
-    height: 250px;
-    width: 990px;
+    height: 492px;
+    width: 480px;
     border-radius: 20px;
     background-color: white;
     display: flex;
     align-items: center;
     border: 1px solid #EAEAEA;
+    flex-direction: column;
 }
 
 .Photography {
-    height: 100%;
-    width: 410px;
+    height: 292px;
+    width: 100%;
     display: flex;
     object-fit: cover;
     border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .Photography img {
@@ -242,47 +237,31 @@
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.Text {
-    width: 580px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: white;
-    padding: 20px 30px 20px 30px;
     border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    align-items: center;
 }
-
-.Upper {
-    height: 100px;
-    width: 540px;
-    background-color: white;
+.Text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Text_Top{
+    width: 440px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-.Top {
-    width: 148px;
+.Text_Mid{
+    width: 214px;
     height: 24px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-}
-
-.Bot {
-    height: 24px;
-    width: 448px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
 
+}
 .weeks {
     width: 78px;
     height: 100%;
@@ -298,34 +277,14 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.levels {
-    width: 84px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.lessons {
-    width: 100px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.Dower {
-    width: 540px;
+.Text_Bot{
     height: 43px;
-    background-color: white;
+    width: 440px;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #EAEAEA;
     align-items: flex-end;
+    border-top: 1px solid #EAEAEA;
 }
-
 .Free {
     width: 89px;
     height: 27px;
@@ -333,7 +292,6 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-
 .Page {
     width: 288px;
     height: 48px;
@@ -393,7 +351,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .content_right {
     width: 270px;
     height: 1104px;
