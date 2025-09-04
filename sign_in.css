@@ -117,7 +117,7 @@
 }
 
 
-.content {
+.content_login {
     width: 100%;
     height: 85vh;
     background-color: cadetblue;
@@ -163,7 +163,7 @@
     
 }
 
-.nameinput {
+.name_input {
     width: 570px;
     height: 100px;
     background-color: white;

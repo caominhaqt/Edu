@@ -1,4 +1,5 @@
 const courses = document.querySelector('.courses')
+
 courses.addEventListener("click", () => {
     courses.style.backgroundColor = '#F5F5F5'
     courses.style.color = 'orange'
@@ -88,55 +89,178 @@ home.addEventListener("click", () => {
     page.style.backgroundColor = 'white'
     page.style.color = 'black'
 })
-const content = document.querySelector('.content')
+const main_content = document.querySelector('.main_content')
 const content_course_over = document.querySelector('.content_course_over')
+const content_blog_left = document.querySelector('.content_blog_left')
+const line_contact = document.querySelector('.line_contact')
+const login = document.querySelector('.login')
+const content_login = document.querySelector('.content_login')
+
 courses.addEventListener("click", () => {
     content_course_over.style.display = 'block'
-    content.style.display = 'none'
+    main_content.style.display = 'none'
+    content_blog_left.style.display = 'none'
+    line_contact.style.display = 'none'
+    content_login.style.display = 'none'
 })
 home.addEventListener("click", () => {
-    content.style.display = 'block'
+    main_content.style.display = 'block'
     content_course_over.style.display = 'none'
+    content_blog_left.style.display = 'none'
+    line_contact.style.display = 'none'
+    content_login.style.display = 'none'
 })
+blog.addEventListener("click", () => {
+    main_content.style.display = 'none'
+    content_course_over.style.display = 'none'
+    content_blog_left.style.display = 'block'
+    line_contact.style.display = 'none'
+    content_login.style.display = 'none'
+})
+page.addEventListener("click", () => {
+    line_contact.style.display = 'flex'
+    main_content.style.display = 'none'
+    content_course_over.style.display = 'none'
+    content_blog_left.style.display = 'none'
+    content_login.style.display = 'none'
+})
+login.addEventListener("click", () => {
+    line_contact.style.display = 'none'
+    main_content.style.display = 'none'
+    content_course_over.style.display = 'none'
+    content_blog_left.style.display = 'none'
+    content_login.style.display = 'flex'
+    courses.style.backgroundColor = 'white'
+    courses.style.color = 'black'
+    blog.style.backgroundColor = 'white'
+    blog.style.color = 'black'
+    page.style.backgroundColor = 'white'
+    page.style.color = 'black'
+    add.style.backgroundColor = 'white'
+    add.style.color = 'black'
+    theme.style.backgroundColor = 'white'
+    theme.style.color = 'black'
+    home.style.backgroundColor = 'white'
+    home.style.color = 'black'
 
+})
 const course_ins = document.querySelector('.Instructor')
 const course_over = document.querySelector('.Overview')
 const course_cur = document.querySelector('.Curriculum')
+const course_FAQs = document.querySelector('.FAQs')
+const course_reviews = document.querySelector('.Reviews')
 const LearnPress_course_ins = document.querySelector('.LearnPress_course_ins')
 const LearnPress_course_over = document.querySelector('.LearnPress_course_over')
 const LearnPress_course_cur = document.querySelector('.LearnPress_course_cur')
+const LearnPress_course_FAQs = document.querySelector('.LearnPress_course_FAQs')
+const LearnPress_course_reviews = document.querySelector('.LearnPress_course_reviews')
 course_ins.addEventListener("click", () => {
     LearnPress_course_over.style.display = 'none'
     LearnPress_course_ins.style.display = 'flex'
     LearnPress_course_cur.style.display = 'none'
+    LearnPress_course_FAQs.style.display = 'none'
+    LearnPress_course_reviews.style.display = 'none'
     course_over.style.backgroundColor = 'white'
     course_ins.style.backgroundColor = '#F5F5F5'
     course_cur.style.backgroundColor = 'white'
+    course_FAQs.style.backgroundColor = 'white'
+    course_reviews.style.backgroundColor = 'white'
     course_over.style.color = 'black'
     course_ins.style.color = 'orange'
     course_cur.style.color = 'black'
+    course_FAQs.style.color = 'black'
+    course_reviews.style.color = 'black'
 })
-course_over.addEventListener("click", ()=> {
+course_over.addEventListener("click", () => {
     LearnPress_course_ins.style.display = 'none'
     LearnPress_course_over.style.display = 'flex'
     LearnPress_course_cur.style.display = 'none'
+    LearnPress_course_FAQs.style.display = 'none'
+    LearnPress_course_reviews.style.display = 'none'
     course_ins.style.backgroundColor = 'white'
     course_over.style.backgroundColor = '#F5F5F5'
     course_cur.style.backgroundColor = 'white'
+    course_FAQs.style.backgroundColor = 'white'
+    course_reviews.style.backgroundColor = 'white'
     course_ins.style.color = 'black'
     course_over.style.color = 'orange'
     course_cur.style.color = 'black'
+    course_FAQs.style.color = 'black'
+    course_reviews.style.color = 'black'
 })
 course_cur.addEventListener("click", () => {
     LearnPress_course_over.style.display = 'none'
     LearnPress_course_ins.style.display = 'none'
     LearnPress_course_cur.style.display = 'flex'
-    
+    LearnPress_course_FAQs.style.display = 'none'
+    LearnPress_course_reviews.style.display = 'none'
     course_over.style.backgroundColor = 'white'
     course_ins.style.backgroundColor = 'white'
     course_cur.style.backgroundColor = '#F5F5F5'
+    course_FAQs.style.backgroundColor = 'white'
+    course_reviews.style.backgroundColor = 'white'
     course_over.style.color = 'black'
     course_ins.style.color = 'black'
     course_cur.style.color = 'orange'
+    course_FAQs.style.color = 'black'
+    course_reviews.style.color = 'black'
 })
- 
+course_FAQs.addEventListener("click", () => {
+    LearnPress_course_over.style.display = 'none'
+    LearnPress_course_ins.style.display = 'none'
+    LearnPress_course_cur.style.display = 'none'
+    LearnPress_course_FAQs.style.display = 'flex'
+    LearnPress_course_reviews.style.display = 'none'
+    course_over.style.backgroundColor = 'white'
+    course_ins.style.backgroundColor = 'white'
+    course_cur.style.backgroundColor = 'white'
+    course_FAQs.style.backgroundColor = '#F5F5F5'
+    course_reviews.style.backgroundColor = 'white'
+    course_over.style.color = 'black'
+    course_ins.style.color = 'black'
+    course_cur.style.color = 'black'
+    course_FAQs.style.color = 'orange'
+    course_reviews.style.color = 'black'
+})
+course_reviews.addEventListener("click", () => {
+    LearnPress_course_over.style.display = 'none'
+    LearnPress_course_ins.style.display = 'none'
+    LearnPress_course_cur.style.display = 'none'
+    LearnPress_course_FAQs.style.display = 'none'
+    LearnPress_course_reviews.style.display = 'flex'
+    course_over.style.backgroundColor = 'white'
+    course_ins.style.backgroundColor = 'white'
+    course_cur.style.backgroundColor = 'white'
+    course_FAQs.style.backgroundColor = 'white'
+    course_reviews.style.backgroundColor = '#F5F5F5'
+    course_over.style.color = 'black'
+    course_ins.style.color = 'black'
+    course_cur.style.color = 'black'
+    course_FAQs.style.color = 'black'
+    course_reviews.style.color = 'orange'
+})
+const content_left = document.querySelector('.content_left')
+const BackGround_content_left = document.querySelector('.BackGround_content_left')
+const vector4 = document.querySelector('.vector4')
+const vector6 = document.querySelector('.vector6')
+
+vector4.addEventListener("click", () => {
+    content_left.style.display = 'none'
+    BackGround_content_left.style.display = 'flex'
+})
+vector6.addEventListener("click", () => {
+    content_left.style.display = 'flex'
+    BackGround_content_left.style.display = 'none'
+})
+const word = document.querySelector('.word_p')
+const content_blog = document.querySelector('.content_left_a')
+word.addEventListener("click", () => {
+    content_left.style.display = 'none'
+    BackGround_content_left.style.display = 'none'
+    content_blog.style.display = 'flex'
+})
+blog.addEventListener("click", () => {
+    content_left.style.display = 'flex'
+    BackGround_content_left.style.display = 'none'
+    content_blog.style.display = 'none'
+})

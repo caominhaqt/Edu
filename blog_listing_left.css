@@ -129,7 +129,7 @@
     justify-content: space-around;
 }
 .content_blog_left {
-    height: 2021px;
+    height: auto;
     width: 100%;
     padding-bottom: 90px;
     display: flex;
@@ -145,7 +145,7 @@
     padding-left: 119px;
     gap: 8px;
 }
-.BackGround{
+.BackGround_left{
     width: 100%;
     height: 1951px;
     background-color:white;
@@ -239,7 +239,7 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.Text{
+.Text_left{
     width: 580px;
     height: 174px;
     display: flex;
@@ -248,7 +248,7 @@
     background-color: white;
     padding: 20px 30px 20px 30px;
 }
-.Mid{
+.Mid_left{
     width: 123px;
     height: 24px;
     display: flex;
@@ -410,7 +410,7 @@
     align-items: center;
     gap: 16px;
 }
-.Photo{
+.Word_Photo{
     width: 90px;
     height: 90px;
     border-radius: 12px;
@@ -423,7 +423,7 @@
     flex-wrap: wrap;
     gap: 8px;
 }
-.Free_courses{
+.but_Free_courses{
     width: 131px;
     height: 43px;
     border-radius: 8px;
@@ -433,7 +433,7 @@
     align-items: center;
     justify-content: center;
 }
-.Marketing{
+.but_Marketing{
     width: 116px;
     height: 43px;
     border-radius: 8px;
@@ -443,7 +443,7 @@
     align-items: center;
     justify-content: center;
 }
-.Idea{
+.but_Idea{
     width: 73px;
     height: 43px;
     border-radius: 8px;
@@ -453,7 +453,7 @@
     align-items: center;
     justify-content: center;
 }
-.LMS{
+.but_LMS{
     width: 73px;
     height: 43px;
     border-radius: 8px;
@@ -463,7 +463,7 @@
     align-items: center;
     justify-content: center;
 }
-.LearnPress{
+.but_LearnPress{
     width: 121px;
     height: 43px;
     border-radius: 8px;
@@ -474,7 +474,7 @@
     background-color: #EAEAEA;
     justify-content: center;
 }
-.Instructor{
+.but_Instructor{
     width: 110px;
     height: 43px;
     border-radius: 8px;

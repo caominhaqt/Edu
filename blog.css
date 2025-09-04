@@ -145,7 +145,7 @@
     padding-left: 119px;
 }
 
-.Background {
+.Background_a {
     height: 2675px;
     width: 100%;
     background-color: white;
@@ -154,7 +154,7 @@
     padding-top: 60px;
 }
 
-.content {
+.content_a {
     height: 2525px;
     width: 1290px;
     background-color: white;
@@ -162,7 +162,7 @@
     justify-content: space-between;
 }
 
-.content_left {
+.content_left_a {
     height: 100%;
     width: 990px;
     background-color: white;
@@ -171,7 +171,7 @@
     justify-content: space-between;
 }
 
-.detail {
+.detail_a {
     height: 1126px;
     width: 100%;
     background-color: white;
@@ -180,7 +180,7 @@
     flex-direction: column;
 }
 
-.title_meta {
+.title_meta_a {
     height: 87px;
     width: 100%;
     background-color: white;
@@ -190,7 +190,7 @@
 
 }
 
-.title {
+.title_a {
     height: 43px;
     width: 100%;
     background-color: white;
@@ -198,7 +198,7 @@
     align-items: center;
 }
 
-.meta {
+.meta_a {
     width: 431px;
     height: 24px;
     background-color: white;
@@ -206,7 +206,7 @@
     justify-content: space-between;
 }
 
-.portraits {
+.portraits_a {
     width: 144px;
     height: 100%;
     background-color: white;
@@ -215,7 +215,7 @@
     align-items: center;
 }
 
-.calendar {
+.calendar_a {
     width: 119px;
     height: 100%;
     background-color: white;
@@ -224,13 +224,13 @@
     align-items: center;
 }
 
-.Icon {
+.Icon_a {
     width: 16px;
     height: 16px;
     background-color: white;
 }
 
-.students {
+.students_a {
     width: 116px;
     height: 100%;
     background-color: white;
@@ -239,7 +239,7 @@
     align-items: center;
 }
 
-.rectangle {
+.rectangle_a {
     width: 990px;
     height: 849px;
     background-color: white;
@@ -248,7 +248,7 @@
     justify-content: space-between;
 }
 
-.picture {
+.picture_a {
     height: 603px;
     width: 100%;
     background-color: white;
@@ -256,13 +256,13 @@
     display: flex;
 }
 
-.picture img {
+.picture_a img {
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
 
-.lorem {
+.lorem_a {
     width: 100%;
     height: 216px;
     background-color: white;
@@ -273,7 +273,7 @@
     line-height: 150%;
 }
 
-.tags {
+.tags_a {
     width: 100%;
     height: 43px;
     gap: 20px;
@@ -282,7 +282,7 @@
     align-items: center;
 }
 
-.Frame_106 {
+.Frame_106_a {
     width: 931px;
     height: 43px;
     background-color: white;
@@ -290,7 +290,7 @@
     gap: 8px;
 }
 
-.but1 {
+.but1_a{
     width: 131px;
     height: 100%;
     border: 1px solid #EAEAEA;
@@ -299,7 +299,7 @@
     background-color: white;
 }
 
-.but2 {
+.but2_a {
     width: 116px;
     height: 100%;
     border: 1px solid #EAEAEA;
@@ -308,7 +308,7 @@
     background-color: white;
 }
 
-.but3 {
+.but3_a {
     width: 73px;
     height: 100%;
     border: 1px solid #EAEAEA;
@@ -317,7 +317,7 @@
     background-color: white;
 }
 
-.but4 {
+.but4_a {
     width: 73px;
     height: 100%;
     border: 1px solid #EAEAEA;
@@ -326,7 +326,7 @@
     background-color: white;
 }
 
-.but5 {
+.but5_a {
     width: 121px;
     height: 100%;
     border: 1px solid #EAEAEA;
@@ -335,7 +335,7 @@
     background-color: #EAEAEA;
 }
 
-.but6 {
+.but6_a {
     width: 110px;
     height: 100%;
     border: 1px solid #EAEAEA;
@@ -344,7 +344,7 @@
     background-color: white;
 }
 
-.share {
+.share_a {
     width: 100%;
     height: 27px;
     gap: 20px;
@@ -353,7 +353,7 @@
     align-items: center;
 }
 
-.social {
+.social_a {
     width: 148px;
     height: 100%;
     display: flex;
@@ -364,14 +364,14 @@
     padding: 4px;
 }
 
-.social img {
+.social_a img {
     width: 100%;
     height: 100%;
     object-fit: contain;
     display: block;
 }
 
-.related_articles {
+.related_articles_a {
     height: 147px;
     width: 100%;
     background-color: white;
@@ -379,7 +379,7 @@
     justify-content: space-between;
 }
 
-.articles_left {
+.articles_left_a {
     height: 100%;
     width: 480px;
     background-color: white;
@@ -391,7 +391,7 @@
     gap: 24px;
 }
 
-.Frame_left {
+.Frame_left_a {
     width: 48px;
     height: 48px;
     background-color: #F5F5F5;
@@ -400,7 +400,7 @@
     justify-content: center;
 }
 
-.Text1 {
+.Text1_a {
     width: 348px;
     height: 87px;
     background-color: white;
@@ -409,7 +409,7 @@
     justify-content: space-between;
 }
 
-.articles_right {
+.articles_right_a {
     height: 100%;
     width: 480px;
     background-color: white;
@@ -421,7 +421,7 @@
     gap: 24px;
 }
 
-.Frame_right {
+.Frame_right_a {
     width: 48px;
     height: 48px;
     background-color: #F5F5F5;
@@ -430,7 +430,7 @@
     justify-content: center;
 }
 
-.Text2 {
+.Text2_a {
     width: 348px;
     height: 87px;
     background-color: white;
@@ -440,7 +440,7 @@
     align-items: flex-end;
 }
 
-.comments {
+.comments_a {
     height: 686px;
     width: 100%;
     background-color: white;
@@ -449,7 +449,7 @@
     justify-content: space-between;
 }
 
-.top_heading {
+.top_heading_a {
     height: 63px;
     width: 100%;
     display: flex;
@@ -458,7 +458,7 @@
     background-color: white;
 }
 
-.Laura {
+.Laura_a {
     width: 100%;
     height: 558px;
     background-color: white;
@@ -467,7 +467,7 @@
     justify-content: space-between;
 }
 
-.Laura_hipster {
+.Laura_hipster_a {
     width: 100%;
     height: 160px;
     background-color: #F5F5F5;
@@ -477,12 +477,12 @@
     justify-content: space-between;
 }
 
-.human {
+.human_a {
     width: 60px;
     height: 60px;
 }
 
-.Text {
+.Text_a {
     width: 910px;
     height: 120px;
     background-color: #F5F5F5;
@@ -491,7 +491,7 @@
     justify-content: space-between;
 }
 
-.October {
+.October_a {
     width: 100%;
     height: 19px;
     background-color: #F5F5F5;
@@ -499,7 +499,7 @@
     justify-content: space-between;
 }
 
-.Com {
+.Com_a {
     width: 100%;
     height: 81px;
     background-color: #F5F5F5;
@@ -507,7 +507,7 @@
     align-items: center;
 }
 
-.reply {
+.reply_a {
     width: 60.73802947998047px;
     height: 24px;
     background-color: #F5F5F5;
@@ -516,7 +516,7 @@
     align-items: center;
 }
 
-.Page {
+.Page_a {
     width: 288px;
     height: 48px;
     background-color: #F5F5F5;
@@ -526,7 +526,7 @@
     justify-content: space-between;
 }
 
-.left {
+.left_a {
     width: 48px;
     height: 48px;
     border-radius: 24px;
@@ -536,7 +536,7 @@
     justify-content: center;
 }
 
-.Page_one {
+.Page_one_a {
     width: 48px;
     height: 48px;
     border-radius: 24px;
@@ -546,7 +546,7 @@
     justify-content: center;
 }
 
-.Page_two {
+.Page_two_a {
     width: 48px;
     height: 48px;
     border-radius: 24px;
@@ -556,7 +556,7 @@
     justify-content: center;
 }
 
-.Page_three {
+.Page_three_a {
     width: 48px;
     height: 48px;
     border-radius: 24px;
@@ -566,7 +566,7 @@
     justify-content: center;
 }
 
-.right {
+.right_a {
     width: 48px;
     height: 48px;
     border-radius: 16px;
@@ -576,7 +576,7 @@
     justify-content: center;
 }
 
-.leave_a_comment {
+.leave_a_comment_a {
     width: 100%;
     height: 386px;
     background-color: white;
@@ -585,7 +585,7 @@
     justify-content: space-between;
 }
 
-.comment {
+.comment_a {
     width: 100%;
     height: 63px;
     background-color: white;
@@ -595,7 +595,7 @@
     gap: 12px;
 }
 
-.nameinput {
+.nameinput_a {
     width: 100%;
     height: 293px;
     background-color: white;
@@ -604,7 +604,7 @@
     justify-content: space-between;
 }
 
-.name {
+.name_a {
     width: 100%;
     height: 48px;
     background-color: white;
@@ -612,7 +612,7 @@
     justify-content: space-between;
 }
 
-.Name {
+.Name_a {
     width: 485px;
     height: 100%;
     background-color: white;
@@ -620,7 +620,7 @@
     border-radius: 5px;
 }
 
-.Email {
+.Email_a {
     width: 485px;
     height: 100%;
     background-color: white;
@@ -628,13 +628,13 @@
     border-radius: 5px;
 }
 
-.Comment {
+.Comment_a{
     width: 100%;
     height: 110px;
     background-color: white;
 }
 
-.cmt {
+.cmt_a {
     width: 100%;
     height: 110px;
     background-color: white;
@@ -644,7 +644,7 @@
     padding-left: 10px;
 }
 
-.save {
+.save_a {
     width: 100%;
     height: 27px;
     background-color: white;
@@ -653,13 +653,13 @@
     gap: 10px;
 }
 
-.post {
+.post_a {
     width: 100%;
     height: 48px;
     background-color: white
 }
 
-.post button {
+.post_a button {
     width: 170px;
     height: 100%;
     background-color: #FF782D;
