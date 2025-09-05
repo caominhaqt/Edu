@@ -264,3 +264,24 @@ blog.addEventListener("click", () => {
     BackGround_content_left.style.display = 'none'
     content_blog.style.display = 'none'
 })
+const Page_one = document.querySelector('.Page_one')
+const Page_two = document.querySelector('.Page_two')
+const Page_three = document.querySelector('.Page_three')
+const Laura1 = document.querySelector('.Laura1')
+const Laura2 = document.querySelector('.Laura2')
+Page_one.addEventListener("click", () => {
+    Laura1.style.display = 'flex'
+    Laura2.style.display = 'none'
+    Page_two.style.backgroundColor = '#F5F5F5'
+    Page_two.style.color = 'black'
+    Page_one.style.backgroundColor = 'black'
+    Page_one.style.color = 'white'
+})
+Page_two.addEventListener("click", () => {
+    Laura1.style.display = 'none'
+    Laura2.style.display = 'flex'
+    Page_two.style.backgroundColor = 'black'
+    Page_two.style.color = 'white'
+    Page_one.style.backgroundColor = '#F5F5F5'
+    Page_one.style.color = 'black'
+})
