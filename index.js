@@ -265,10 +265,13 @@ blog.addEventListener("click", () => {
     content_blog.style.display = 'none'
 })
 const Page_one = document.querySelector('.Page_one')
+const Page_one_1 = document.querySelector('.Page_one_1')
 const Page_two = document.querySelector('.Page_two')
 const Page_three = document.querySelector('.Page_three')
 const Laura1 = document.querySelector('.Laura1')
 const Laura2 = document.querySelector('.Laura2')
+const left = document.querySelector('.left')
+const right = document.querySelector('.right')
 Page_one.addEventListener("click", () => {
     Laura1.style.display = 'flex'
     Laura2.style.display = 'none'
@@ -276,12 +279,43 @@ Page_one.addEventListener("click", () => {
     Page_two.style.color = 'black'
     Page_one.style.backgroundColor = 'black'
     Page_one.style.color = 'white'
+    Page_three.style.backgroundColor = '#F5F5F5'
+    Page_three.style.color = 'black'
 })
 Page_two.addEventListener("click", () => {
     Laura1.style.display = 'none'
     Laura2.style.display = 'flex'
     Page_two.style.backgroundColor = 'black'
     Page_two.style.color = 'white'
+    Page_one.style.display = 'none'
+    Page_one_1.style.display = 'flex'
+    Page_three.style.backgroundColor = '#F5F5F5'
+    Page_three.style.color = 'black'
+})
+Page_three.addEventListener("click", () => {
+    Laura1.style.display = 'none'
+    Laura2.style.display = 'none'
+    Page_two.style.backgroundColor = '#F5F5F5'
+    Page_two.style.color = 'black'
     Page_one.style.backgroundColor = '#F5F5F5'
     Page_one.style.color = 'black'
+    Page_three.style.backgroundColor = 'black'
+    Page_three.style.color = 'white'
+})
+Page_one_1.addEventListener("click", () => {
+    Laura1.style.display = 'flex'
+    Laura2.style.display = 'none'
+    Page_two.style.backgroundColor = '#F5F5F5'
+    Page_two.style.color = 'black'
+    Page_one.style.display = 'flex'
+    Page_one_1.style.display = 'none'
+    Page_one.style.backgroundColor = 'black'
+    Page_one.style.color = 'white'
+    Page_three.style.backgroundColor = '#F5F5F5'
+    Page_three.style.color = 'black'
+})
+const post = document.querySelector('.post button')
+console.log(post.innerHTML)
+post.addEventListener("click", () => {
+    window.alert("dang ky thanh cong");
 })
